@@ -4,6 +4,7 @@
   "installCommand": "npm install",
   "framework": "nextjs",
   "regions": ["sin1"],
+  "node_version": "18.18",
   "env": {
     "NEXTAUTH_URL": "https://${VERCEL_URL}",
     "NEXTAUTH_SECRET": "${NEXTAUTH_SECRET}"
